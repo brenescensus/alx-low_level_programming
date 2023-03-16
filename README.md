@@ -1,1 +1,2 @@
-first readme
+#!/bin/bash
+preprocessor
