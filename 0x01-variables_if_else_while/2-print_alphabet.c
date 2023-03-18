@@ -7,6 +7,13 @@
 */
 int main(void)
 {
-	putchar('j');
+	char lowerCase ='a';
+
+	while (lowerCase <= 'z')
+	{
+		putchar(lowerCase);
+		lowerCase ++;
+	}
+	putchar('\n');
 	return (0);
 }
